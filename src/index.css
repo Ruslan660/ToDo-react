@@ -34,6 +34,16 @@ h2 {
   border: none;
   color: red;
   cursor: pointer;
+  opacity: 0;
+  transition: all 0.2s;
+}
+
+.del-btn:hover {
+  opacity: 1;
+}
+
+label:hover + .del-btn {
+  opacity: 1;
 }
 
 .textInput {
